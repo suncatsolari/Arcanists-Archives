@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Wolfborn<
+        <update version="0.0.1">
+            <file name="race-wolfborn.xml" url="https://raw.githubusercontent.com/suncatsolari/woods/races/race-wolfborn.xml" />
+        </update>
+    </info>
+</elements>
