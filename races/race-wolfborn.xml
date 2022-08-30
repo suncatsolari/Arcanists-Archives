@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Wolfborn<
+        <name>Wolfborn</name>
+        <description>Wolfborn Race</description>
+        <author>Arcanist's Archives</author>      
         <update version="0.0.1">
             <file name="race-wolfborn.xml" url="https://raw.githubusercontent.com/suncatsolari/woods/main/races/race-wolfborn.xml" />
         </update>
     </info>
+    
+    <element name="Wolfborn" type="Race" source="Woods Approved Homebrew" id="ID_AA_WAH_RACE_WOLFBORN>
+        <description>
+        Wolfborn description
+                                                                              
+    </element>
 </elements>
