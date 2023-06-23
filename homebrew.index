@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>Arcanist's Archives</name>
+        <update version="0.0.2">
+            <file name="homebrew.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew.index" />
+        </update>
+    </info>
+    <files>
+    <!-- Miscelaneous -->
+        <file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/eldritch-invocations.xml" />
+        <file name="feats.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/feats.xml" />
+        <file name="spells.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/spells.xml" />
+
+    <!-- Classes -->
+        <file name="filename.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes.index" />
+    </files>
+</index>
