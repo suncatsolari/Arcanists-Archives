@@ -3,10 +3,28 @@
     <info>
         <name></name>
         <update version="0.0.1">
-            <file name="bard.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master//bard.index" />
+            <file name="bard.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard.index" />
         </update>
     </info>
     <files>
-        <file name="filename.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master//barbarian/filename.xml" />
+        <file name="bard-academia.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-academia.xml"      />
+        <file name="bard-cards.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-cards.xml"         />
+        <file name="bard-corydon.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-corydon.xml"       />
+        <file name="bard-culinary-arts.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-culinary-arts.xml" />
+        <file name="bard-dancer.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-dancer.xml"        />
+        <file name="bard-dirge-singer.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-dirge-singer.xml"  />
+        <file name="bard-echos.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-echos.xml"         />
+        <file name="bard-emerald-grove.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-emerald-grove.xml" />
+        <file name="bard-gardening.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-gardening.xml"     />
+        <file name="bard-keys.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-keys.xml"          />
+        <file name="bard-leadership.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-leadership.xml"    />
+        <file name="bard-rebellion.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-rebellion.xml"     />
+        <file name="bard-ska.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-ska.xml"           />
+        <file name="bard-soul.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-soul.xml"          />
+        <file name="bard-swing.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-swimg.xml"         />
+        <file name="bard-the-maestro.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-the-maestro.xml"   />
+        <file name="bard-tragedy.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-tragedy.xml"       />
+        <file name="bard-valor-rework.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/bard-valor-rework.xml"  />
+        <file name="variants-bard.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard/variants-bard.xml"      />
     </files>
 </index>

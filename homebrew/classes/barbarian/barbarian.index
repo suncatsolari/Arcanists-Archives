@@ -3,10 +3,23 @@
     <info>
         <name></name>
         <update version="0.0.1">
-            <file name="barbarian.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master//barbarian.index" />
+            <file name="barbarian.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian.index" />
         </update>
     </info>
     <files>
-        <file name="filename.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master//barbarian/filename.xml" />
+        <file name="barbarian-battlerager-reworked.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-battlerager-reworked.xml" />
+        <file name="barbarian-berserker.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-berserker.xml"            />
+        <file name="barbarian-drowned.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-drowned.xml"              />
+        <file name="barbarian-extreme-exploration.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-extreme-exploration.xml"  />
+        <file name="barbarian-infernal.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-infernal.xml"             />
+        <file name="barbarian-infested.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-infested.xml"             />
+        <file name="barbarian-joy.xml"                  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-joy.xml"                  />
+        <file name="barbarian-juggernaut.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-juggernaut.xml"           />
+        <file name="barbarian-muscle-wizard.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-muscle-wizard.xml"        />
+        <file name="barbarian-nightmare.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-nightmare.xml"            />
+        <file name="barbarian-pack-hunter.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-pack-hunter.xml"          />
+        <file name="barbarian-thrower.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-thrower.xml"              />
+        <file name="barbarian-warsinger.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/barbarian-warsinger.xml"            />
+        <file name="variants-barbarian.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian/variants-barbarian.xml"             />
     </files>
 </index>

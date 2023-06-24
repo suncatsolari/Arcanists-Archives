@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="bloodhunter.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bloodhunter/bloodhunter.index" />
+        </update>
+    </info>
+    <files>
+        <file name="bloodhunter-divine-ichor.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bloodhunter/bloodhunter-divine-ichor.xml" />
+        <file name="bloodhunter-flaggelant.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bloodhunter/bloodhunter-flaggelant.xml"   />
+        <file name="bloodhunter-old-ways.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bloodhunter/bloodhunter-old-ways.xml"     />
+        <file name="variants-bloodhunter.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bloodhunter/variants-bloodhunter.xml"     />
+    </files>
+</index>
