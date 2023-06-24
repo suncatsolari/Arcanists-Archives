@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="ranger.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger.index" />
+        </update>
+    </info>
+    <files>
+        <file name="ranger-bounty-hunter.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-bounty-hunter.xml" />
+        <file name="ranger-emerald-grove.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-emerald-grove.xml" />
+        <file name="ranger-field-marshal.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-field-marshal.xml" />
+        <file name="ranger-green-reaper.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-green-reaper.xml"  />
+        <file name="ranger-infested.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-infested.xml"      />
+        <file name="ranger-outlaw.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-outlaw.xml"        />
+        <file name="ranger-pack-hunter.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-pack-hunter.xml"   />
+        <file name="ranger-peace-keeper.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-peace-keeper.xml"  />
+        <file name="ranger-petal-walker.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-petal-walker.xml"  />
+        <file name="ranger-sanguine.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/ranger-sanguine.xml"      />
+        <file name="variants-ranger.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger/variants-ranger.xml"      />
+    </files>
+</index>

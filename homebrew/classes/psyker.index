@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="psyker.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/psyker.index" />
+        </update>
+    </info>
+    <files>        
+        <file name="class-psyker.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/class-psyker.xml"    />
+        <file name="psyker-ardent.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/psyker-ardent.xml"   />
+        <file name="psyker-avatar.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/psyker-avatar.xml"   />
+        <file name="psyker-awakened.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/psyker-awakened.xml" />
+        <file name="psyker-nomad.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/psyker-nomad.xml"    />
+        <file name="psyker-wu-jen.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker/psyker-wu-jen.xml"   />
+    </files>
+</index>

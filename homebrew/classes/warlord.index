@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="warlord.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord.index" />
+        </update>
+    </info>
+    <files>
+        <file name="class-warlord.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/class-warlord.xml"       />
+        <file name="warlord-chieftain.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord-chieftain.xml"   />
+        <file name="warlord-commander.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord-commander.xml"   />
+        <file name="warlord-noble.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord-noble.xml"       />
+        <file name="warlord-pack-leader.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord-pack-leader.xml" />
+        <file name="warlord-paragon.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord-paragon.xml"     />
+        <file name="warlord-tactician.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord-tactician.xml"   />
+    </files>
+</index>

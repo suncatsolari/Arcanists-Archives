@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="esoteric.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric/esoteric.index" />
+        </update>
+    </info>
+    <files>
+        <file name="class-esoteric.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric/variants-esoteric.xml" />
+        <file name="esoteric-deviant.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric/esoteric-deviant.xml"  />
+        <file name="esoteric-dreamer.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric/esoteric-dreamer.xml"  />
+        <file name="esoteric-lotus.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric/esoteric-lotus.xml"    />
+        <file name="esoteric-wanderer.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric/esoteric-wanderer.xml" />
+    </files>
+</index>

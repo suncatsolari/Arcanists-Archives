@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="warlock.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock.index" />
+        </update>
+    </info>
+    <files>
+        <file name="pact-boon-bloodline.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-bloodline.xml"          />
+        <file name="pact-boon-candle.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-candle.xml"             />
+        <file name="pact-boon-crown.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-crown.xml"              />
+        <file name="pact-boon-eye.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-eye.xml"                />
+        <file name="pact-boon-host.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-host.xml"               />
+        <file name="pact-boon-orb.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-orb.xml"                />
+        <file name="pact-boon-quill.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-quill.xml"              />
+        <file name="pact-boon-steed.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-steed.xml"              />
+        <file name="pact-boon-talent.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-talent.xml"             />
+        <file name="pact-boon-trigger.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-trigger.xml"            />
+        <file name="pact-boon-vessel.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-vessel.xml"             />
+        <file name="pact-boon-vial.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-vial.xml"               />
+        <file name="pact-boon-watch.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-watch.xml"              />
+        <file name="pact-boon-wing.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/pact-boon-wing.xml"               />
+        <file name="variants-warlock.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/variants-warlock.xml"             />
+        <file name="warlock-caretaker.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-caretaker.xml"            />
+        <file name="warlock-cuddle-lord.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-cuddle-lord.xml"          />
+        <file name="warlock-dragon.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-dragon.xml"               />
+        <file name="warlock-emerald-grove.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-emerald-grove.xml"        />
+        <file name="warlock-eternal-frost.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-eternal-frost.xml"        />
+        <file name="warlock-firebird.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-firebird.xml"             />
+        <file name="warlock-grand-mage.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-grand-mage.xml"           />
+        <file name="warlock-great-old-one-redone.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-great-old-one-redone.xml" />
+        <file name="warlock-jotunn.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-jotunn.xml"               />
+        <file name="warlock-legion.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-legion.xml"               />
+        <file name="warlock-many.xml"                 url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-many.xml"                 />
+        <file name="warlock-puppeteer.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-puppeteer.xml"            />
+        <file name="warlock-timelord.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-timelord.xml"             />
+        <file name="warlock-titan.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-titan.xml"                />
+        <file name="warlock-wendigo.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-wendigo.xml"              />
+        <file name="warlock-witch.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock/warlock-witch.xml"                />
+    </files>
+</index>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="druid.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid.index" />
+        </update>
+    </info>
+    <files>
+        <file name="druid-ancients.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-ancients.xml"  />
+        <file name="druid-arbiter.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-arbiter.xml"   />
+        <file name="druid-aspects.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-aspects.xml"   />
+        <file name="druid-blighted.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-blighted.xml"  />
+        <file name="druid-coven.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-coven.xml"     />
+        <file name="druid-forged.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-forged.xml"    />
+        <file name="druid-harvester.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/druid-harvester.xml" />
+        <file name="variants-druid.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid/variants-druid.xml"  />
+    </files>
+</index>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="witch.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch.index" />
+        </update>
+    </info>
+    <files>
+
+        <file name="class-witch.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/class-witch.xml"             />
+        <file name="pact-boon-watch.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/pact-boon-watch.xml"              />
+        <file name="pact-boon-wing.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/pact-boon-wing.xml"               />
+        <file name="witch-caretaker.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-caretaker.xml"            />
+        <file name="witch-cuddle-lord.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-cuddle-lord.xml"          />
+        <file name="witch-dragon.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-dragon.xml"               />
+        <file name="witch-emerald-grove.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-emerald-grove.xml"        />
+        <file name="witch-eternal-frost.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-eternal-frost.xml"        />
+        <file name="witch-firebird.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-firebird.xml"             />
+        <file name="witch-grand-mage.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-grand-mage.xml"           />
+        <file name="witch-great-old-one-redone.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-great-old-one-redone.xml" />
+        <file name="witch-jotunn.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-jotunn.xml"               />
+        <file name="witch-legion.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-legion.xml"               />
+        <file name="witch-many.xml"                 url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-many.xml"                 />
+        <file name="witch-puppeteer.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-puppeteer.xml"            />
+        <file name="witch-timelord.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-timelord.xml"             />
+        <file name="witch-titan.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-titan.xml"                />
+        <file name="witch-wendigo.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-wendigo.xml"              />
+        <file name="witch-witch.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch/witch-witch.xml"                />
+    </files>
+</index>

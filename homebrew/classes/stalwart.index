@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="stalwart.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart/stalwart.index" />
+        </update>
+    </info>
+    <files>
+        <file name="class-stalwart.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart/class-stalwart.xml"        />
+        <file name="stalwart-bastion.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart/stalwart-bastion.xml"      />
+        <file name="stalwart-colossus.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart/stalwart-colossus.xml"     />
+        <file name="stalwart-demon-slayer.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart/stalwart-demon-slayer.xml" />
+        <file name="stalwart-knave.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart/stalwart-knave.xml"        />
+    </files>
+</index>

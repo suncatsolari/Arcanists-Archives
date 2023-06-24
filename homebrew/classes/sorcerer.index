@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="sorcerer.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer.index" />
+        </update>
+    </info>
+    <files>
+        <file name="sorcerer-calamity.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-calamity.xml"          />
+        <file name="sorcerer-cluckromancy.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-cluckromancy.xml"      />
+        <file name="sorcerer-cryogenic-soul.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-cryogenic-soul.xml"    />
+        <file name="sorcerer-death-touched.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-death-touched.xml"     />
+        <file name="sorcerer-draconic-addendum.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-draconic-addendum.xml" />
+        <file name="sorcerer-gravity.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-gravity.xml"           />
+        <file name="sorcerer-hellspawn.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-hellspawn.xml"         />
+        <file name="sorcerer-karen.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-karen.xml"             />
+        <file name="sorcerer-nekomancer.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-nekomancer.xml"        />
+        <file name="sorcerer-progenitor-spark.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-progenitor-spark.xml"  />
+        <file name="sorcerer-rune-child.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/sorcerer-rune-child.xml"        />
+        <file name="variants-sorcerer.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer/variants-sorcerer.xml"          />
+    </files>
+</index>

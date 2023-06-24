@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="paladin.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin.index" />
+        </update>
+    </info>
+    <files>
+        <file name="paladin-autumn.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-autumn.xml"             />
+        <file name="paladin-draconic-ascension.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-draconic-ascension.xml" />
+        <file name="paladin-festivity.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-festivity.xml"          />
+        <file name="paladin-forgotten-ones.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-forgotten-ones.xml"     />
+        <file name="paladin-freedom.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-freedom.xml"            />
+        <file name="paladin-grave.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-grave.xml"              />
+        <file name="paladin-infested.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-infested.xml"           />
+        <file name="paladin-lotus.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-lotus.xml"              />
+        <file name="paladin-malice.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-malice.xml"             />
+        <file name="paladin-master-chef.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-master-chef.xml"        />
+        <file name="paladin-open-sea.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-open-sea.xml"           />
+        <file name="paladin-pack-hunter.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-pack-hunter.xml"        />
+        <file name="paladin-rememberance.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-rememberance.xml"       />
+        <file name="paladin-rodriguez.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-rodriguez.xml"          />
+        <file name="paladin-sacrament.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/paladin-sacrament.xml"          />
+        <file name="variants-paladin.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin/variants-paladin.xml"           />
+    </files>
+</index>

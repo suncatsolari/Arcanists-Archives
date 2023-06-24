@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="fighter.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter.index" />
+        </update>
+    </info>
+    <files>
+        <file name="fighter-banneret-krii.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-banneret-krii.xml"       />
+        <file name="fighter-bone-knight.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-bone-knight.xml"         />
+        <file name="fighter-brute-krii.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-brute-krii.xml"          />
+        <file name="fighter-chronal-fighter.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-chronal-fighter.xml"     />
+        <file name="fighter-commandant.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-commandant.xml"          />
+        <file name="fighter-dragoon.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-dragoon.xml"             />
+        <file name="fighter-embodiment-of-order.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-embodiment-of-order.xml" />
+        <file name="fighter-fey-knight.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-fey-knight.xml"          />
+        <file name="fighter-field-medic.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-field-medic.xml"         />
+        <file name="fighter-infested.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-infested.xml"            />
+        <file name="fighter-natural-warrior.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-natural-warrior.xml"     />
+        <file name="fighter-pack-hunter.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-pack-hunter.xml"         />
+        <file name="fighter-primal-warrior.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-primal-warrior.xml"      />
+        <file name="fighter-spellslinger.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-spellslinger.xml"        />
+        <file name="fighter-steelhawk.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-steelhawk.xml"           />
+        <file name="fighter-time-mason.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-time-mason.xml"          />
+        <file name="fighter-vigilante.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-vigilante.xml"           />
+        <file name="variants-fighter.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/variants-fighter.xml"            />
+    </files>
+</index>
