@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="channeler.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler.index" />
+        </update>
+    </info>
+    <files>
+        <file name="channeler-chronos-avenger.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler-chronos-avenger.xml" />
+        <file name="channeler-harmonic-magician.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler-harmonic-magician.xml"    />
+        <file name="channeler-iron-myrmidon.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler-iron-myrmidon.xml"  />
+    </files>
+</index>

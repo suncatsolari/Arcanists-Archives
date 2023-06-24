@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="cleric.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric.index" />
+        </update>
+    </info>
+    <files>
+        <file name="cleric-blood.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-blood.xml"   />
+        <file name="cleric-chaos.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-chaos.xml"   />
+        <file name="cleric-journey.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-journey.xml" />
+        <file name="cleric-mind.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-mind.xml"    />
+        <file name="cleric-moon.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-moon.xml"    />
+        <file name="cleric-occult.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-occult.xml"  />
+        <file name="cleric-sovereign.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric/cleric-echos.xml"   />
+    </files>
+</index>
