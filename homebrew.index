@@ -7,12 +7,13 @@
         </update>
     </info>
     <files>
-    <!-- Miscelaneous -->
+    <!-- XMLs -->
         <file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/eldritch-invocations.xml" />
-        <file name="feats.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/feats.xml" />
-        <file name="spells.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/spells.xml" />
+        <file name="feats.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/feats.xml"                />
+        <file name="spells.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/spells.xml"               />
 
-    <!-- Classes -->
-        <file name="filename.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes.index" />
+    <!-- Indexes -->
+        <file name="classes.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes.index" />
+        <file name="races.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races.index"   />
     </files>
 </index>

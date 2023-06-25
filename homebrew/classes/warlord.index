@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
     <info>
-        <name></name>
-        <update version="0.0.1">
+        <name>Warlord</name>
+        <update version="0.0.2">
             <file name="warlord.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord/warlord.index" />
         </update>
     </info>

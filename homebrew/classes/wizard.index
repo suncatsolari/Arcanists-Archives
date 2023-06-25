@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>Wizard</name>
+        <update version="0.0.2">
+            <file name="wizard.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard.index" />
+        </update>
+    </info>
+    <files>
+        
+        <file name="wizard-antiques.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-antiques.xml"  />
+        <file name="wizard-blood.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-blood.xml"     />
+        <file name="wizard-gun.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-gun.xml"       />
+        <file name="wizard-hedge.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-hedge.xml"     />
+        <file name="wizard-hemomancy.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-hemomancy.xml" />
+        <file name="wizard-librarian.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-librarian.xml" />
+        <file name="wizard-magicians.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-magicians"     />
+        <file name="wizard-peacock.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/wizard-peacock.xml"   />
+        <file name="variants-wizard.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard/variants-wizard.xml"  />
+    </files>
+</index>

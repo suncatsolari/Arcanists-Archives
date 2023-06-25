@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>Races</name>
+        <update version="0.0.1">
+            <file name="races.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races.index" />
+        </update>
+    </info>
+    <files>
+    <!-- Races -->
+        <file name="races-1.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-1.index" />
+        <file name="races-2.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2.index" />
+    </files>
+</index>

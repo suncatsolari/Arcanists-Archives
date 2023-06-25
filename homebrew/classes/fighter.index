@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <index>
     <info>
-        <name></name>
-        <update version="0.0.1">
+        <name>Fighter</name>
+        <update version="0.0.2">
             <file name="fighter.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter.index" />
         </update>
     </info>
