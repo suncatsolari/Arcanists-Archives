@@ -54,4 +54,5 @@
 		<sheet usage="1/Long Rest">
 			<description>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws.</description>
 		</sheet>
+    </element>
 </elements>
