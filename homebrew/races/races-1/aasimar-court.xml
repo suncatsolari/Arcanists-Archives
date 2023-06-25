@@ -26,7 +26,7 @@
 			<grant type="Racial Trait" id="ID_AA_EE_COURT_AASIMAR_RACIAL_TRAIT_TRANCE" />
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language||Court Aasimar Language" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-            <grant type="Racial Trait" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST" />
+            <grant type="Racial Trait" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST" level="3" />
 		</rules>
 	</element>
     <element name="Fey Ancestry" type="Racial Trait" source="Exploring Eberron" id="ID_AA_EE_COURT_AASIMAR_FEY_ANCESTRY">
