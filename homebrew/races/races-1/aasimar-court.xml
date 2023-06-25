@@ -15,68 +15,46 @@
 			<p class="indent"><strong><em>Fey Ancestry.</em></strong> You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
 			<p class="indent"><strong><em>Trance.</em></strong> You don't need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day. After resting in this way, you gain the same benefits that a human does from 8 hours of sleep.</p>
 			<p class="indent"><strong><em>Extra Language.</em></strong> You can speak, read, and write Elvish.</p>
-            <p class="indent"><strong><em>Guidance from the Past.</em></strong> Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear.</p>
+            <p class="indent"><strong><em>Guidance From the Past.</em></strong> Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear.</p>
             <ul class="unstyled">
-                <li style="margin-left:1em;text-indent:-1em;">
+                <li style="margin-left:1em;text-indent:-1em;">Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws.</li>
+                <li style="margin-left:1em;text-indent:-1em;">Once you use this trait, you can't use it again until you finish a long rest.</li>
 		</description>
-		<sheet alt="Elf (Mark of Shadow)" display="false" />
+
+		<sheet alt="Aasimar (Court)" display="false" />
 		<rules>
-			<grant type="Dragonmark" id="ID_WOTC_ERLW_DRAGONMARK_MARK_OF_SHADOW" />
-			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mark of Shadow)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SHADOW_CUNNING_INTUITION" />
-			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SHADOW_SHAPE_SHADOWS" />
-			<grant type="Racial Trait" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SHADOW_SPELLS_OF_THE_MARK" />
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Court Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_AA_EE_COURT_AASIMAR_RACIAL_TRAIT_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_AA_EE_COURT_AASIMAR_RACIAL_TRAIT_TRANCE" />
+			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Customized Language" supports="Custom Race Language||Court Aasimar Language" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Racial Trait" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST" />
 		</rules>
 	</element>
-	<element name="Cunning Intuition" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SHADOW_CUNNING_INTUITION">
+    <element name="Fey Ancestry" type="Racial Trait" source="Exploring Eberron" id="ID_AA_EE_COURT_AASIMAR_FEY_ANCESTRY">
+        <description>
+            <p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
+        </description>
+        <sheet>
+            <description>Advantage on saving throws against being charmed, and magic can`t put you to sleep</description>
+        </sheet>
+    </element>
+    <element name="Trance" type="Racial Trait" source="Exploring Ebberon" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_TRANCE">
+        <description>
+            <p>You don't need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day. After resting in this way, you gain the same benefits that a human does from 8 hours of sleep.</p>
+        </description>
+        <sheet>
+            <description>You don't need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day.</description>
+        </sheet>
+    </element>
+	<element name="Guidance From the Past" type="Racial Trait" source="Exploring Eberron" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST">
 		<description>
-			<p>When you make a Charisma (Performance) or Dexterity (Stealth) check, you can roll a d4 and add the number rolled to the ability check.</p>
+			<p>Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear.</p>
+            <p class="indent">Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws.</p>
+            <p class="indent">Once you use this trait, you can't use it again until you finish a long rest.</p>
 		</description>
-		<sheet>
-			<description>When you make a Performance or Stealth check, you can roll a d4 and add the number rolled to the ability check.</description>
+		<sheet usage="1/Long Rest">
+			<description>You can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws.</description>
 		</sheet>
-	</element>
-	<element name="Shape Shadows" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SHADOW_SHAPE_SHADOWS">
-		<description>
-			<p>You know the minor illusion cantrip. Starting at 3rd level, you can cast the invisibility spell once with this trait, and you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.</p>
-		</description>
-		<sheet>
-			<description>You know the minor illusion cantrip using Charisma as your spellcasting ability.</description>
-			<description level="3" usage="1/Long Rest">You know the minor illusion cantrip. You can cast the invisibility spell once with this trait using Charisma as your spellcasting ability.</description>
-		</sheet>
-		<rules>
-			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
-		</rules>
-	</element>
-	<element name="Spells of the Mark" type="Racial Trait" source="Eberron: Rising from the Last War" id="ID_WOTC_ERLW_RACIAL_TRAIT_MARK_OF_SHADOW_SPELLS_OF_THE_MARK">
-		<description>
-			<p>If you have the Spellcasting or the Pact Magic class feature, the spells on the Mark of Shadow Spells table are added to the spell list of your spellcasting class.</p>
-			<h5>Mark of Shadow Spells</h5>
-			<table>
-				<thead>
-					<tr><td>Spell Level</td><td>Spells</td></tr>
-				</thead>
-				<tr><td>1st</td><td><em>disguise self, silent image</em></td></tr>
-				<tr><td>2nd</td><td><em>darkness, pass without trace</em></td></tr>
-				<tr><td>3rd</td><td><em>clairvoyance, major image</em></td></tr>
-				<tr><td>4th</td><td><em>greater invisibility, hallucinatory terrain</em></td></tr>
-				<tr><td>5th</td><td><em>mislead</em></td></tr>
-			</table>
-		</description>
-		<sheet display="false">
-			<description>The spells on the Mark of Shadow Spells table are added to the spell list of your spellcasting class.</description>
-		</sheet>
-		<spellcasting all="true" extend="true">
-			<extend>ID_PHB_SPELL_DISGUISE_SELF</extend>
-			<extend>ID_PHB_SPELL_SILENT_IMAGE</extend>
-			<extend>ID_PHB_SPELL_DARKNESS</extend>
-			<extend>ID_PHB_SPELL_PASS_WITHOUT_TRACE</extend>
-			<extend>ID_PHB_SPELL_CLAIRVOYANCE</extend>
-			<extend>ID_PHB_SPELL_MAJOR_IMAGE</extend>
-			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
-			<extend>ID_PHB_SPELL_HALLUCINATORY_TERRAIN</extend>
-			<extend>ID_PHB_SPELL_MISLEAD</extend>
-		</spellcasting>
-	</element>	
 </elements>
