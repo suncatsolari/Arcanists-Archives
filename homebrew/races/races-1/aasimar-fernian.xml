@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="aasimar-fernian.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-1/aasimar-fernian.xml" />
+		</update>
+	</info>	
+	<element name="Fernian Aasimar" type="Sub Race" source="Exploring Eberron" id="ID_AA_EE_SUB_RACE_FERNIAN_AASIMAR">
+		<supports>Aasimar</supports>
+		<description>
+			<p>If your aasimar's powers flow from Fernia</p>
+			<p>They have aasimar traits from <em>Volo's Guide to Monsters</em>, plus the traits below.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Guidance From the Past.</em></strong> Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear. <br/>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws. <br/>Once you use this trait, you can't use it again until you finish a long rest.</p>
+		</description>
+
+		<sheet alt="Aasimar (Fernian)" display="false" />
+		<rules>
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fernian Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_RADIANT_CONSUMPTION" level="3" />
+		</rules>
+	</element>
+
+	<element name="Radiant Consumption" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_RADIANT_CONSUMPTION">
+		<description>
+			<p>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.</p>
+			<p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</p>
+			<p>Once you use this trait, you can't use it again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take {{level:half:up}} radiant damage. In addition, once on each of your turns, you can deal {{level}} extra radiant damage to one target when you deal damage to it with an attack or a spell.</description>
+		</sheet>
+	</element>
+</element>
