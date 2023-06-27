@@ -4,16 +4,16 @@
         <name>Wolfborn</name>
         <description>Wolfborn Race</description>
         <author></author>      
-        <update version="0.0.1">
+        <update version="1.0.0">
             <file name="race-wolfborn.xml" url="https://raw.githubusercontent.com/suncatsolari/woods/main/races/race-wolfborn.xml" />
         </update>
     </info>
     
     <element name="Wolfborn" type="Race" source="Arcanist's Archives" id="ID_AA_RACE_WOLFBORN">
         <description>
-            <p class="flavor"><i>"What is it, Fenrir?" Andraste asked softly. The mighty Wolfborn had his nose in the air, his nostrils flaring. He held a finger out so as to soothe her. "Orcs. And a lot of them." Fenrir drew his sword. "Stay close. It will be alright."</i><p>
+            <p class="flavor"><em>"What is it, Fenrir?" Andraste asked softly. The mighty Wolfborn had his nose in the air, his nostrils flaring. He held a finger out so as to soothe her. "Orcs. And a lot of them." Fenrir drew his sword. "Stay close. It will be alright."</em><p>
             <p class="indent">-Denlys Warshadow,</p>
-            <p class="indent"><i>The Roaming Pack</i></p>
+            <p class="indent"><em>The Roaming Pack</em></p>
             <p>Ancient werewolves, after evolving for hundreds of years, were refined into strong, cultured Wolfborn. These wolf-men are descendants of werewolves long forgotten. The Wolfborn are warriors, scholars, and friends.</p>
             <h4>DECEIVING APPEARANCE<h4>
             <p>Wolfborn are tall and muscular, standing over most humanoids. They range from about 6 feet to over 7 feet tall, weighing from 200 to 300 pounds. The Wolfborn are wolf like in appearance, with a long, bestial face and fur covering there bodies. Wolfborn can have black, gray, or white fur, just as wolves can. Wolfborn's sharp teeth and claws make them seem intimidating, but they are generally kind in nature. They have strangely colored eyes, including orange, blue, purple, and brown.</p>
@@ -28,17 +28,177 @@
             <h4>WOLFBORN TRAITS<h4>
             <p>Your Wolfborn character has certain characteristics in common with all other Wolfborn.
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1, and one other ability score of your choice increases by one.</p>
-            <p class="indent"><strong><em>Age.</em> Wolfborn mature at a slightly quicker rate than humans, reaching adulthood at around 14 years of age, and live for about 80 years.</strong></p>
+            <p class="indent"><strong><em>Age.</em></strong> Wolfborn mature at a slightly quicker rate than humans, reaching adulthood at around 14 years of age, and live for about 80 years.</p>
             <p class="indent"><strong><em>Alignment.</em></strong> Wolfborn tend to lean towards good or neutral alignments because of their kind nature. They try to lift others up and help everyone.</p>
             <p class="indent"><strong><em>Size.</em></strong> Wolfborn range from about 6 feet to over seven feet tall and have heavy builds. Your size is Medium.</p>
-            <p class="indent"><strong><em>Speed.</em> Your base walking speed is 30 feet.</strong></p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
             <p class="indent"><strong><em>Darkvision.</em></strong> Due to your ancestors' time in the darkness, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>
-            <p class="indent"><strong><em>Keen Senses.</em> The Wolfborn has advantage on Wisdom (Perception) checks that rely on hearing and smell.</strong></p>
-            <p class="indent"><strong><em>Natural Weapons.</em> Your claws are unarmed weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 plus your Strength modifier, instead of bludgeoning normal for an unarmed strike.</strong></p>
-            <p class="indent"><strong><em>Languages.</em> You can speak, read, and write Common and one extra language of your choice.</strong></p>
-            <p class="indent"><strong><em>Subrace.</em> Three subraces of Wolfborn are found among the worlds of D&amp;D: Winter Wolfborn, Dire Wolfborn, and Gray Wolfborn. Choose one of these subraces.</strong></p>
+            <p class="indent"><strong><em>Keen Senses.</em></strong> The Wolfborn has advantage on Wisdom (Perception) checks that rely on hearing and smell.</p>
+            <p class="indent"><strong><em>Natural Weapons.</em></strong> Your claws are unarmed weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 plus your Strength modifier, instead of bludgeoning normal for an unarmed strike.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and one extra language of your choice.</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Three subraces of Wolfborn are found among the worlds of D&amp;D: Winter Wolfborn, Dire Wolfborn, and Gray Wolfborn. Choose one of these subraces.</p>
         </description>
         <sheet display="false">
+        <setters>
+            <set name="names" type="male">Amarok, Fenrir, Grimm, Lupin, Lycan, Magnus</set>
+            <set name="names" type="female">Amarana, Freya, Kanastri, Nymeria, Vilka</set>
+            <set name="names-format">{{name}}</set>
+        </setters>
+        <rules>
+            <stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Ability Score Increase, Wolfborn" supports="ID_INTERNAL_ASI_DEXTERITY|ID_INTERNAL_ASI_CONSTITUTION|ID_INTERNAL_ASI_INTELLIGENCE|ID_INTERNAL_ASI_WISDOM|ID_INTERNAL_ASI_CHARISMA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Wolfborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Wolfborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Racial Trait" id="ID_AA_RACIAL_TRAIT_KEEN_SENSES_WOLFBORN" />
+            <grant type="Racial Trait" id="ID_AA_RACIAL_TRAIT_NATURAL_WEAPONS_WOLFBORN" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <select type="Language" name="Languages" supports="Standard||Exotic" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE"/>
+            <select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Racial Trait" id="ID_AA_RACIAL_TRAIT_SUBRACE_WOLFBORN" />
+        </rules>
         </sheet>                                            
+    </element>
+    <element name="Keen Senses" type="Racial Trait" source="Arcanist's Archives" id="ID_AA_RACIAL_TRAIT_KEEN_SENSES_WOLFBORN">
+        <description>
+            <p>The Wolfborn has advantage on Wisdom (Perception) checks that rely on hearing and smell.</p>
+        </description>
+        <sheet>
+            <description>You have advantage on Perception checks that rely on hearing and smell</description>
+    </element>
+    <element name="Natural Weapons" type="Racial Trait" source="Arcanist's Archives" id="ID_AA_RACIAL_TRAIT_NATURAL_WEAPONS_WOLFBORN">
+        <description>
+            <p>Your claws are unarmed weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6 plus your Strength modifier, instead of bludgeoning normal for an unarmed strike.</p>
+        </description>
+        <sheet>
+            <description>Your claws are unarmed weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d6+{{strength:modifier}}, instead of bludgeoning normal for an unarmed strike.</description>
+        </sheet>
+    </element>
+    <element name="Subrace" type="Racial Trait" source="Arcanist's Archives" id="ID_AA_RACIAL_TRAIT_SUBRACE_WOLFBORN">
+        <description>
+            <p>Three subraces of Wolfborn are found among the worlds of D&amp;D: Winter Wolfborn, Dire Wolfborn, and Gray Wolfborn. Choose one of these subraces.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <select type="Subrace" name="Wolfborn Subrace" supports="ID_AA_SUB_RACE_WOLFBORN" />
+        </rules>
+    </element>
+    <element name="Winter Wolfborn" type="Subrace" source="Arcanist's Archives" id="ID_AA_SUB_RACE_WINTER">
+        <supports>Wolfborn</supports>
+        <description>
+            <p>Winter Wolfborn are the rarest type of Wolfborn, and are generally stronger than other types of Wolfborn. As a Winter Wolfborn, you are naturally adapted to the cold. Winter Wolfborn gather in wintry, arctic regions. Winter Wolfborn generally have white fur with streaks of icy blue.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Cold Resistance.</em></strong> You have resistance to cold damage.</p>
+            <p class="indent"><strong><em>Breath Weapon.</em></strong>You can use your action to exhale freezing air. When you use your breath weapon, each creature in a 15 foot cone must make a constitution saving throw. The DC for this saving throw is equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save or half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+            <p class="indent">After you use your breath weapon, you can't use it again until you complete a short or Long Rest.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Winter Wolfborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COLD_RESISTANCE" />
+            <grant type="Racial Trait" id="ID_RACIAL_WOLFBORN_BREATH_WEAPON" />
+        </rules>
+        <element name="Cold Resistance" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_COLD_RESISTANCE">
+            <description>
+                <p>You have resistance to cold damage.</p>
+            </description>
+            <sheet display="false">
+            <rules>
+                <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+            </rules>
+        </element>
+        <element name="Breath Weapon" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_WOLFBORN_BREATH_WEAPON">
+            <description>
+                <p>You can use your action to exhale freezing air. When you use your breath weapon, each creature in a 15 foot cone must make a constitution saving throw. The DC for this saving throw is equal to 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 cold damage on a failed save or half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</p>
+                <p>After you use your breath weapon, you can't use it again until you complete a short or Long Rest.</p>
+            </description>
+            <sheet usage="1/Short Rest">
+                <description>You can use your action to exhale freezing air. When you use your breath weapon, each creature in a 15 foot cone must make a constitution saving throw. The DC for this saving throw is equal to {{breath weapon:dc}}. A creature takes {{breath weapon:dice count}}d6 cold damage on a failed save or half as much damage on a successful one.</description>
+            </sheet>
+            <rules>
+                <stat name="breath weapon:dc" value="8" />
+                <stat name="breath weapon:dc" value="constitution:modifier" />
+                <stat name="breath weapon:dc" value="proficiency" />
+                <stat name="breath weapon:dice count" value="2" level="1" bonus="base" />
+                <stat name="breath weapon:dice count" value="3" level="6" bonus="base" />
+                <stat name="breath weapon:dice count" value="4" level="11" bonus="base" />
+                <stat name="breath weapon:dice count" value="5" level="6" bonus="base" />
+            </rules>
+        </element>
+    </element>
+    <element name="Dire Wolfborn" type="Subrace" source="Arcanist's Archives" id="ID_AA_SUB_RACE_DIRE">
+        <supports>Wolfborn</supports>
+        <description>
+            <p>As a Dire Wolfborn, you are naturally hardy and more durable. Dire Wolfborn gather in milder climates than winter wolfborn, generally in the same area as the Gray Wolfborn. Dire Wolfborn generally have gray or black fur. Dire Wolfborn are fairly common, although not as common as Gray Wolfborn.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+            <p class="indent"><strong><em>Thick Hide.</em></strong> Your thick hide makes you harder to hit. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+            <p class="indent"><strong><em>Dire Toughness.</em></strong>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Winter Wolfborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_THICK_HIDE" />
+            <grant type="Racial Trait" id="ID_RACIAL_WOLFBORN_DIRE_TOUGHNESS" />
+        </rules>
+        <element name="Thick Hide" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_THICK_HIDE">
+            <description>
+                <p>Your thick hide makes you harder to hit. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</p>
+            </description>
+            <sheet>
+                <description>Your thick hide makes you harder to hit. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</description>
+            </sheet>
+            <rules>
+                <stat name="dire wolfborn:thick hide" value="13" bonus="base" />
+                <stat name="ac:calculation" value="dire wolfborn:thick hide" bonus="calculation" />
+            </rules>
+        </element>
+        <element name="Dire Toughness" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_WOLFBORN_DIRE_TOUGHNESS">
+            <description>
+                <p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>
+            </description>
+            <sheet display="false" />
+            <rules>
+                <stat name="hp" value="level" />
+            </rules>
+        </element>
+    </element>
+    <element name="Gray Wolfborn" type="Subrace" source="Arcanist's Archives" id="ID_AA_SUB_RACE_GRAY">
+        <supports>Wolfborn</supports>
+        <description>
+            <p>As a Gray Wolfborn, you are naturally more quick and dexterous. Gray Wolfborn gather in mild climates along with the Dire Wolfborn. Gray Wolfborn almost always have gray fur. Gray Wolfborn are the most common of all Wolfborn.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Pack Tactics.</em></strong> As a bonus action, you can give yourself advantage on all attack rolls against a creature until the end of your turn if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated. Once you use this feature, you can't use it again until you complete a short or long rest.</p>
+            <p class="indent"><strong><em>Fleet of Foot.</em></strong>Your base walking speed increases to 35 feet.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Winter Wolfborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_PACK_TACTICS" />
+            <grant type="Racial Trait" id="ID_RACIAL_WOLFBORN_FLEET_OF_FOOT" />
+        </rules>
+        <element name="Pack Tactics" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_PACK_TACTICS">
+            <description>
+                <p>As a bonus action, you can give yourself advantage on all attack rolls against a creature until the end of your turn if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated. Once you use this feature, you can't use it again until you complete a short or long rest.</p>
+            </description>
+            <sheet usage="1/Short Rest"> 
+                <description>As a bonus action, you can give yourself advantage on all attack rolls against a creature until the end of your turn if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated. Once you use this feature, you can't use it again until you complete a short or long rest.</description>
+            </sheet>
+        </element>
+        <element name="Fleet of Foot" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_WOLFBORN_FLEET_OF_FOOT">
+            <description>
+                <p>Your base walking speed increases to 35 feet.</p>
+            </description>
+            <sheet display="false" />
+            <rules>
+                <stat name="innate speed" value="35" bonus="base" />
+            </rules>
+        </element>
     </element>
 </elements>
