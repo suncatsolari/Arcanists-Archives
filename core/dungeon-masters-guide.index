@@ -10,7 +10,7 @@
 	</info>
 	<files>
 		<file name="source.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/core/dungeon-masters-guide/source.xml" />
-		<file name="cleric-deathdomain.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/core/dungeon-masters-guide/classes/cleric-deathdomain.xml" />
+		<file name="cleric-deathdomain.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/core/dungeon-masters-guide/classes/cleric-deathdomain.xml"  />
 		<file name="class-oathbreaker.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/core/dungeon-masters-guide/classes/class-oathbreaker.xml" />	
 		<file name="race-aasimar.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/core/dungeon-masters-guide/races/race-aasimar.xml" />	
 		<file name="subrace-eladrin.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/core/dungeon-masters-guide/races/subrace-eladrin.xml" />		
