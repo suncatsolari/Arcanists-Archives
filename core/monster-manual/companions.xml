@@ -3,7 +3,7 @@
     <info>
         <name>Companions</name>
         <update version="0.0.4">
-            <file name="companions.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/companions.xml" />
+            <file name="companions.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/companions.xml" />
         </update>
     </info>
         
