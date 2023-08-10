@@ -3,23 +3,23 @@
     <info>
         <name>Monk</name>
         <update version="0.0.2">
-            <file name="monk.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk.index" />
+            <file name="monk.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk.index" />
         </update>
     </info>
     <files>
-        <file name="monk-argent-fist.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-argent-fist.xml"      />
-        <file name="monk-atomic-karate.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-atomic-karate.xml"    />
-        <file name="monk-cobalt-soul.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-cobalt-soul.xml"      />
-        <file name="monk-elemental-rework.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-elemental-rework.xml" />
-        <file name="monk-flame-dancer.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-flame-dancer.xml"     />
-        <file name="monk-gun-fu.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-gun-fu.xml"           />
-        <file name="monk-living-weapon.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-living-weapon.xml"    />
-        <file name="monk-mining-fist.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-mining-fist.xml"      />
-        <file name="monk-occult.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-occult.xml"           />
-        <file name="monk-outcast.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-outcast.xml"          />
-        <file name="monk-storms.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-storms.xml"           />
-        <file name="monk-void.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-void.xml"             />
-        <file name="monk-wayless.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/monk-wayless.xml"          />
-        <file name="variants-monk.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk/variants-monk.xml"         />
+        <file name="monk-argent-fist.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-argent-fist.xml"      />
+        <file name="monk-atomic-karate.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-atomic-karate.xml"    />
+        <file name="monk-cobalt-soul.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-cobalt-soul.xml"      />
+        <file name="monk-elemental-rework.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-elemental-rework.xml" />
+        <file name="monk-flame-dancer.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-flame-dancer.xml"     />
+        <file name="monk-gun-fu.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-gun-fu.xml"           />
+        <file name="monk-living-weapon.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-living-weapon.xml"    />
+        <file name="monk-mining-fist.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-mining-fist.xml"      />
+        <file name="monk-occult.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-occult.xml"           />
+        <file name="monk-outcast.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-outcast.xml"          />
+        <file name="monk-storms.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-storms.xml"           />
+        <file name="monk-void.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-void.xml"             />
+        <file name="monk-wayless.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/monk-wayless.xml"          />
+        <file name="variants-monk.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk/variants-monk.xml"         />
     </files>
 </index>

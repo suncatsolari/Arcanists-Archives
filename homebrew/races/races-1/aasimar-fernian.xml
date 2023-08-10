@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="aasimar-fernian.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-1/aasimar-fernian.xml" />
+			<file name="aasimar-fernian.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-fernian.xml" />
 		</update>
 	</info>	
 	<element name="Fernian Aasimar" type="Sub Race" source="Exploring Eberron" id="ID_AA_EE_SUB_RACE_FERNIAN_AASIMAR">

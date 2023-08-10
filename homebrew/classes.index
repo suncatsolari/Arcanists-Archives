@@ -3,34 +3,34 @@
     <info>
         <name>Classes</name>
         <update version="0.0.1">
-            <file name="classes.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes.index" />
+            <file name="classes.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes.index" />
         </update>
     </info>
     <files>
     <!-- Classes -->
-        <file name="artificer.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/artificer.index"   />
-        <file name="barbarian.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/barbarian.index"   />
-        <file name="bard.index"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bard.index"        />
-        <file name="bloodhunter.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/bloodhunter.index" />
-        <file name="channeler.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler.index"   />
-        <file name="cleric.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/cleric.index"      />
-        <file name="druid.index"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/druid.index"       />
-        <file name="dust-user.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/dust-user.index"   />
-        <file name="esoteric.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/esoteric.index"    />
-        <file name="fighter.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter.index"     />
-        <file name="monk.index"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/monk.index"        />
-        <file name="mystic.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/mystic.index"      />
-        <file name="paladin.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/paladin.index"     />
-        <file name="psyker.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/psyker.index"      />
-        <file name="pugilist.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist.index"    />
-        <file name="ranger.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/ranger.index"      />
-        <file name="rogue.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue.index"       />
-        <file name="scholar.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/scholar.index"     />
-        <file name="sorcerer.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/sorcerer.index"    />
-        <file name="stalwart.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/stalwart.index"    />
-        <file name="warlock.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlock.index"     />
-        <file name="warlord.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/warlord.index"     />
-        <file name="witch.index"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/witch.index"       />
-        <file name="wizard.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/wizard.index"      />
+        <file name="artificer.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer.index"   />
+        <file name="barbarian.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian.index"   />
+        <file name="bard.index"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bard.index"        />
+        <file name="bloodhunter.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bloodhunter.index" />
+        <file name="channeler.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/channeler.index"   />
+        <file name="cleric.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/cleric.index"      />
+        <file name="druid.index"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/druid.index"       />
+        <file name="dust-user.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/dust-user.index"   />
+        <file name="esoteric.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/esoteric.index"    />
+        <file name="fighter.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/fighter.index"     />
+        <file name="monk.index"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/monk.index"        />
+        <file name="mystic.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/mystic.index"      />
+        <file name="paladin.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/paladin.index"     />
+        <file name="psyker.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/psyker.index"      />
+        <file name="pugilist.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist.index"    />
+        <file name="ranger.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/ranger.index"      />
+        <file name="rogue.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue.index"       />
+        <file name="scholar.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/scholar.index"     />
+        <file name="sorcerer.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/sorcerer.index"    />
+        <file name="stalwart.index"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/stalwart.index"    />
+        <file name="warlock.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/warlock.index"     />
+        <file name="warlord.index"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/warlord.index"     />
+        <file name="witch.index"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/witch.index"       />
+        <file name="wizard.index"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/wizard.index"      />
     </files>
 </index>

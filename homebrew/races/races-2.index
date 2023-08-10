@@ -3,39 +3,39 @@
     <info>
         <name>Races 2</name>
         <update version="0.0.1">
-            <file name="races-2.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2.index" />
+            <file name="races-2.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2.index" />
         </update>
     </info>
     <files>
     <!-- Aasimar -->
-        <file name="aasimar-egg.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/aasimar-egg.xml" />
+        <file name="aasimar-egg.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/aasimar-egg.xml" />
 
     <!-- Goliath -->
-        <file name="goliath-pureblood.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/goliath-pureblood.xml" />
+        <file name="goliath-pureblood.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/goliath-pureblood.xml" />
         
     <!-- Tiefling -->
-        <file name="tiefling-risian-variant.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/tiefling-risian-variant.xml" />
-        <file name="tiefling-zephyr.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/tiefling-zephyr.xml"         />
+        <file name="tiefling-risian-variant.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/tiefling-risian-variant.xml" />
+        <file name="tiefling-zephyr.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/tiefling-zephyr.xml"         />
 
     <!-- Variants -->
-        <file name="variant-kobold.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/variant-kobold.xml"                />
-        <file name="variant-more-tiefling-options.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/variant-more-tiefling-options.xml" />   
+        <file name="variant-kobold.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/variant-kobold.xml"                />
+        <file name="variant-more-tiefling-options.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/variant-more-tiefling-options.xml" />   
 
     <!-- Races -->
-        <file name="race-anadi.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-anadi.xml"             />
-        <file name="race-asura.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-asura.xml"             />
-        <file name="race-castorean.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-castorean.xml"         />
-        <file name="race-frogfolk.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-frogfolk.xml"          />
-        <file name="race-karkinos.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-karkinos.xml"          />
-        <file name="race-kiwifolk.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-kiwifolk.xml"          />
-        <file name="race-kuo-toa.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-kuo-toa.xml"           />
-        <file name="race-pigfolk-nightwaif.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-pigfolk-nightwaif.xml" />
-        <file name="race-pigfolk-toter.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-pigfolk-toter.xml"     />
-        <file name="race-possumfolk.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-possumfolk.xml"        />
-        <file name="race-ralishan.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-ralishan.xml"          />
-        <file name="race-shezaite.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-shezaite.xml"          />
-        <file name="race-skatha.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-skatha.xml"            />
-        <file name="race-starborn.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-starborn.xml"          />
-        <file name="race-vendo.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2/race-vendo.xml"             />
+        <file name="race-anadi.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-anadi.xml"             />
+        <file name="race-asura.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-asura.xml"             />
+        <file name="race-castorean.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-castorean.xml"         />
+        <file name="race-frogfolk.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-frogfolk.xml"          />
+        <file name="race-karkinos.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-karkinos.xml"          />
+        <file name="race-kiwifolk.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-kiwifolk.xml"          />
+        <file name="race-kuo-toa.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-kuo-toa.xml"           />
+        <file name="race-pigfolk-nightwaif.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-pigfolk-nightwaif.xml" />
+        <file name="race-pigfolk-toter.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-pigfolk-toter.xml"     />
+        <file name="race-possumfolk.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-possumfolk.xml"        />
+        <file name="race-ralishan.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-ralishan.xml"          />
+        <file name="race-shezaite.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-shezaite.xml"          />
+        <file name="race-skatha.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-skatha.xml"            />
+        <file name="race-starborn.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-starborn.xml"          />
+        <file name="race-vendo.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2/race-vendo.xml"             />
     </files>
 </index>

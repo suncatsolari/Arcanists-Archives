@@ -3,13 +3,13 @@
     <info>
         <name>Dust User</name>
         <update version="0.0.2">
-            <file name="dust-user.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/dust-user/dust-user.index" />
+            <file name="dust-user.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/dust-user/dust-user.index" />
         </update>
     </info>
     <files>
-        <file name="class-dust-user.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/dust-user/variants-dust-user.xml"        />
-        <file name="dust-user-gorilla.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/dust-user/dust-user-gorilla.xml"         />
-        <file name="dust-user-seam-specialist.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/dust-user/dust-user-seam-specialist.xml" />
-        <file name="dust-user-skin-deep.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/dust-user/dust-user-skin-deep.xml"       />
+        <file name="class-dust-user.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/dust-user/variants-dust-user.xml"        />
+        <file name="dust-user-gorilla.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/dust-user/dust-user-gorilla.xml"         />
+        <file name="dust-user-seam-specialist.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/dust-user/dust-user-seam-specialist.xml" />
+        <file name="dust-user-skin-deep.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/dust-user/dust-user-skin-deep.xml"       />
     </files>
 </index>

@@ -3,17 +3,17 @@
     <info>
         <name>Arcanist's Archives</name>
         <update version="0.0.2">
-            <file name="homebrew.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew.index" />
+            <file name="homebrew.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew.index" />
         </update>
     </info>
     <files>
     <!-- XMLs -->
-        <file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/eldritch-invocations.xml" />
-        <file name="feats.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/feats.xml"                />
-        <file name="spells.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/spells.xml"               />
+        <file name="eldritch-invocations.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/eldritch-invocations.xml" />
+        <file name="feats.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/feats.xml"                />
+        <file name="spells.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/spells.xml"               />
 
     <!-- Indexes -->
-        <file name="classes.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes.index" />
-        <file name="races.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races.index"   />
+        <file name="classes.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes.index" />
+        <file name="races.index"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races.index"   />
     </files>
 </index>

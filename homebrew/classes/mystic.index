@@ -3,11 +3,11 @@
     <info>
         <name>Mystic</name>
         <update version="0.0.2">
-            <file name="mystic.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/mystic/mystic.index" />
+            <file name="mystic.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/mystic/mystic.index" />
         </update>
     </info>
     <files>
-        <file name="mystic-pocket.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/mystic/mystic-pocket.xml"   />
-        <file name="variants-mystic.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/mystic/variants-mystic.xml" />
+        <file name="mystic-pocket.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/mystic/mystic-pocket.xml"   />
+        <file name="variants-mystic.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/mystic/variants-mystic.xml" />
     </files>
 </index>

@@ -3,13 +3,13 @@
     <info>
         <name>Channeler</name>
         <update version="0.0.2">
-            <file name="channeler.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler.index" />
+            <file name="channeler.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/channeler/channeler.index" />
         </update>
     </info>
     <files>
-        <file name="channeler-chronos-avenger.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler-chronos-avenger.xml"   />
-        <file name="channeler-harmonic-magician.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler-harmonic-magician.xml" />
-        <file name="channeler-iron-myrmidon.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/channeler/channeler-iron-myrmidon.xml"     />
-        <file name="class-channeler.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/fighter/fighter-banneret-krii.xml"         />
+        <file name="channeler-chronos-avenger.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/channeler/channeler-chronos-avenger.xml"   />
+        <file name="channeler-harmonic-magician.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/channeler/channeler-harmonic-magician.xml" />
+        <file name="channeler-iron-myrmidon.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/channeler/channeler-iron-myrmidon.xml"     />
+        <file name="class-channeler.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/fighter/fighter-banneret-krii.xml"         />
     </files>
 </index>

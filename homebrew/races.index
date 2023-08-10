@@ -3,12 +3,12 @@
     <info>
         <name>Races</name>
         <update version="0.0.1">
-            <file name="races.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races.index" />
+            <file name="races.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races.index" />
         </update>
     </info>
     <files>
     <!-- Races -->
-        <file name="races-1.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-1.index" />
-        <file name="races-2.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/races/races-2.index" />
+        <file name="races-1.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1.index" />
+        <file name="races-2.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-2.index" />
     </files>
 </index>

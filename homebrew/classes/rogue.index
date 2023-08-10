@@ -3,22 +3,22 @@
     <info>
         <name>Rogue</name>
         <update version="0.0.2">
-            <file name="rogue.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue.index" />
+            <file name="rogue.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue.index" />
         </update>
     </info>
     <files>
-        <file name="rogue-arsonist.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-arsonist.xml"        />
-        <file name="rogue-assassin-violet.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-assassin-violet.xml" />
-        <file name="rogue-bandito.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-bandito.xml"         />
-        <file name="rogue-bioweapon.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-bioweapon.xml"       />
-        <file name="rogue-divine-herald.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-divine-herald.xml"   />
-        <file name="rogue-enforcer.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-enforcer.xml"        />
-        <file name="rogue-fencer.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-fencer.xml"          />
-        <file name="rogue-oiler.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-oiler.xml"           />
-        <file name="rogue-outlaw.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-outlaw.xml"          />
-        <file name="rogue-satellite.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-satellite.xml"       />
-        <file name="rogue-tinkerer.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-tinkerer.xml"        />
-        <file name="rogue-toxicist.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/rogue-toxicist.xml"        />
-        <file name="variants-rogue.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/rogue/variants-rogue.xml"        />
+        <file name="rogue-arsonist.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-arsonist.xml"        />
+        <file name="rogue-assassin-violet.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-assassin-violet.xml" />
+        <file name="rogue-bandito.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-bandito.xml"         />
+        <file name="rogue-bioweapon.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-bioweapon.xml"       />
+        <file name="rogue-divine-herald.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-divine-herald.xml"   />
+        <file name="rogue-enforcer.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-enforcer.xml"        />
+        <file name="rogue-fencer.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-fencer.xml"          />
+        <file name="rogue-oiler.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-oiler.xml"           />
+        <file name="rogue-outlaw.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-outlaw.xml"          />
+        <file name="rogue-satellite.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-satellite.xml"       />
+        <file name="rogue-tinkerer.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-tinkerer.xml"        />
+        <file name="rogue-toxicist.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/rogue-toxicist.xml"        />
+        <file name="variants-rogue.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/rogue/variants-rogue.xml"        />
     </files>
 </index>

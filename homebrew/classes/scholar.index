@@ -3,13 +3,13 @@
     <info>
         <name>Scholar</name>
         <update version="0.0.2">
-            <file name="scholar.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/scholar/scholar.index" />
+            <file name="scholar.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/scholar/scholar.index" />
         </update>
     </info>
     <files>
-        <file name="class-scholar.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/scholar/class-scholar.xml"           />
-        <file name="scholar-experimentalist.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/scholar/scholar-experimentalist.xml" />
-        <file name="scholar-monsterologist.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/scholar/scholar-monsterologist.xml"  />
-        <file name="scholar-tactician.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/scholar/scholar-tactician.xml"       />
+        <file name="class-scholar.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/scholar/class-scholar.xml"           />
+        <file name="scholar-experimentalist.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/scholar/scholar-experimentalist.xml" />
+        <file name="scholar-monsterologist.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/scholar/scholar-monsterologist.xml"  />
+        <file name="scholar-tactician.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/scholar/scholar-tactician.xml"       />
     </files>
 </index>

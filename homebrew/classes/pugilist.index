@@ -3,18 +3,18 @@
     <info>
         <name>Pugilist</name>
         <update version="0.0.2">
-            <file name="pugilist.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist.index" />
+            <file name="pugilist.index" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist.index" />
         </update>
     </info>
     <files>
-        <file name="class-pugilist.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/class-pugilist.xml"                />
-        <file name="pugilist-bloodhound-bruiser.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-bloodhound-bruiser.xml"   />
-        <file name="pugilist-dog-and-hound.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-dog-and-hound.xml"        />
-        <file name="pugilist-hand-of-dread.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-hand-of-dread.xml"        />
-        <file name="pugilist-lucha-libre.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-lucha-libre.xml"          />
-        <file name="pugilist-patron-prize-puncher.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-patron-prize-puncher.xml" />
-        <file name="pugilist-piss-and-vinegar.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-piss-and-vinegar.xml"     />
-        <file name="pugilist-squared-circle.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-squared-circle.xml"       />
-        <file name="pugilist-sweet-science.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/main/homebrew/classes/pugilist/pugilist-sweet-science.xml"        />
+        <file name="class-pugilist.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/class-pugilist.xml"                />
+        <file name="pugilist-bloodhound-bruiser.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-bloodhound-bruiser.xml"   />
+        <file name="pugilist-dog-and-hound.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-dog-and-hound.xml"        />
+        <file name="pugilist-hand-of-dread.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-hand-of-dread.xml"        />
+        <file name="pugilist-lucha-libre.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-lucha-libre.xml"          />
+        <file name="pugilist-patron-prize-puncher.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-patron-prize-puncher.xml" />
+        <file name="pugilist-piss-and-vinegar.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-piss-and-vinegar.xml"     />
+        <file name="pugilist-squared-circle.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-squared-circle.xml"       />
+        <file name="pugilist-sweet-science.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/pugilist/pugilist-sweet-science.xml"        />
     </files>
 </index>
