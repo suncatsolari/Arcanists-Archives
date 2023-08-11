@@ -18,6 +18,7 @@
 		<rules>
 			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fernian Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Racial Trait"
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_RADIANT_CONSUMPTION" level="3" />
 		</rules>
 	</element>
