@@ -10,6 +10,7 @@
     <files>
         <file name="artificer-arcane-weaver.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer/artificer-arcane-weaver.xml" />
         <file name="artificer-forge-adept.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer/artificer-forge-adept.xml"   />
+        <file name="artificer-hemomancer.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer/artificer-hemomancer.xml"    />
         <file name="artificer-maverick.xml"      url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer/artificer-maverick.xml"      />
         <file name="artificer-puppeteer.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer/artificer-puppeteer.xml"     />
         <file name="artificer-radiologist.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/artificer/artificer-radiologist.xml"   />

@@ -14,6 +14,7 @@
         <file name="druid-coven.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/druid/druid-coven.xml"     />
         <file name="druid-forged.xml"    url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/druid/druid-forged.xml"    />
         <file name="druid-harvester.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/druid/druid-harvester.xml" />
+        <file name="druid-rocks.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/druid/druid-rocks.xml"     />
         <file name="variants-druid.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/druid/variants-druid.xml"  />
     </files>
 </index>

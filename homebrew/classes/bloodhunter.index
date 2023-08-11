@@ -10,6 +10,7 @@
         <file name="bloodhunter-divine-ichor.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bloodhunter/bloodhunter-divine-ichor.xml" />
         <file name="bloodhunter-flaggelant.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bloodhunter/bloodhunter-flaggelant.xml"   />
         <file name="bloodhunter-old-ways.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bloodhunter/bloodhunter-old-ways.xml"     />
+        <file name="bloodhunter-sacred-light.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bloodhunter/bloodhunter-sacred-light.xml" />
         <file name="variants-bloodhunter.xml"     url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/bloodhunter/variants-bloodhunter.xml"     />
     </files>
 </index>

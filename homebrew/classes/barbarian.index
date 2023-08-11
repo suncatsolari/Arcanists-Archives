@@ -9,8 +9,10 @@
     <files>
         <file name="barbarian-battlerager-reworked.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-battlerager-reworked.xml" />
         <file name="barbarian-berserker.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-berserker.xml"            />
+        <file name="barbarian-blood.xml"                url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-blood.xml"                />
         <file name="barbarian-drowned.xml"              url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-drowned.xml"              />
         <file name="barbarian-extreme-exploration.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-extreme-exploration.xml"  />
+        <file name="barbarian-hollow.xml"               url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-hollow.xml"               />
         <file name="barbarian-infernal.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-infernal.xml"             />
         <file name="barbarian-infested.xml"             url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-infested.xml"             />
         <file name="barbarian-joy.xml"                  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/classes/barbarian/barbarian-joy.xml"                  />
