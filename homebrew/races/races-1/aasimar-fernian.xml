@@ -8,29 +8,54 @@
 	<element name="Fernian Aasimar" type="Sub Race" source="Exploring Eberron" id="ID_AA_EE_SUB_RACE_FERNIAN_AASIMAR">
 		<supports>Aasimar</supports>
 		<description>
-			<p>If your aasimar's powers flow from Fernia</p>
-			<p>They have aasimar traits from <em>Volo's Guide to Monsters</em>, plus the traits below.</p>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 1.</p>
-            <p class="indent"><strong><em>Guidance From the Past.</em></strong> Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear. <br/>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws. <br/>Once you use this trait, you can't use it again until you finish a long rest.</p>
+			<p>If your aasimar's powers flow from Fernia, you can use the scourge aasimar subrace from <em>Volo's Guide to Monsters</em>, but forgo the Celestial Resistance and Light Bearer traits, and instead use the following traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+			<p class="indent"><strong><em>Fernian Resistance.</em></strong> You have resistance to fire and necrotic damage.</p>
+			<p class="indent"><strong><em>Shroud of Flame.</em></strong> Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take fire damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra fire damage to one target when you deal damage to it with an attack or a spell. The extra fire damage equals your level. Once you use this trait, you can't use it again until you finish a long rest.</p>
+			<p class="indent"><strong><em> Spirit of Fire.</em></strong> You know the <em>produce flames</em> cantrip. Charisma is your spellcasting ability for it.
 		</description>
 
 		<sheet alt="Aasimar (Fernian)" display="false" />
 		<rules>
 			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fernian Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<grant type="Racial Trait"
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_RADIANT_CONSUMPTION" level="3" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_FERNIAN_RESISTANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_SHROUD_OF_FLAME" level="3" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_SPIRIT_OF_FIRE" />
 		</rules>
 	</element>
 
-	<element name="Radiant Consumption" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_RADIANT_CONSUMPTION">
+	<element name="Fernian Resistance" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_FERNIAN_RESISTANCE">
+		<description>
+			<p>You have resistance to fire damage and necrotic damage.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to fire damage and necrotic damage.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+		</rules>
+	</element>
+	<element name="Shroud of Flame" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_SHROUD_OF_FLAME">
 		<description>
 			<p>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.</p>
-			<p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</p>
+			<p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take fire damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra fire damage to one target when you deal damage to it with an attack or a spell. The extra fire damage equals your level.</p>
 			<p>Once you use this trait, you can't use it again until you finish a long rest.</p>
 		</description>
 		<sheet usage="1/Long Rest">
-			<description>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take {{level:half:up}} radiant damage. In addition, once on each of your turns, you can deal {{level}} extra radiant damage to one target when you deal damage to it with an attack or a spell.</description>
+			<description>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take {{level:half:up}} fire damage. In addition, once on each of your turns, you can deal {{level}} extra fire damage to one target when you deal damage to it with an attack or a spell.</description>
 		</sheet>
+	</element>
+	<element name="Spirit of Fire" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_FERNIAN_AASIMAR_SPIRIT_OF_FIRE">
+		<description>
+			<p>You know the produce flames cantrip. Charisma is your spellcasting ability for it.</p>
+		</description>
+		<sheet>
+			<description>You know the produce flames cantrip. (Spellcasting: Charisma)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_PRODUCE_FLAME" />
+		</rules>
 	</element>
 </element>

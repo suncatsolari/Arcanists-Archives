@@ -22,14 +22,14 @@
 		<rules>
 			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Court Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<grant type="Racial Trait" id="ID_AA_EE_COURT_AASIMAR_RACIAL_TRAIT_FEY_ANCESTRY" />
-			<grant type="Racial Trait" id="ID_AA_EE_COURT_AASIMAR_RACIAL_TRAIT_TRANCE" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_COURT_AASIMAR_FEY_ANCESTRY" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_COURT_AASIMAR_TRANCE" />
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language||Court Aasimar Language" number="1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-            <grant type="Racial Trait" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST" level="3" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST" level="3" />
 		</rules>
 	</element>
-    <element name="Fey Ancestry" type="Racial Trait" source="Exploring Eberron" id="ID_AA_EE_COURT_AASIMAR_FEY_ANCESTRY">
+    <element name="Fey Ancestry" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_COURT_AASIMAR_FEY_ANCESTRY">
         <description>
             <p>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</p>
         </description>
@@ -37,7 +37,7 @@
             <description>Advantage on saving throws against being charmed, and magic can`t put you to sleep</description>
         </sheet>
     </element>
-    <element name="Trance" type="Racial Trait" source="Exploring Ebberon" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_TRANCE">
+    <element name="Trance" type="Racial Trait" source="Exploring Ebberon" id="ID_RACIAL_TRAIT_COURT_AASIMAR_TRANCE">
         <description>
             <p>You don't need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day. After resting in this way, you gain the same benefits that a human does from 8 hours of sleep.</p>
         </description>
@@ -45,7 +45,7 @@
             <description>You don't need to sleep. Instead, you meditate deeply, remaining semiconscious for 4 hours a day.</description>
         </sheet>
     </element>
-	<element name="Guidance From the Past" type="Racial Trait" source="Exploring Eberron" id="ID_AA_EE_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST">
+	<element name="Guidance From the Past" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_COURT_AASIMAR_GUIDANCE_FROM_THE_PAST">
 		<description>
 			<p>Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear.</p>
             <p class="indent">Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws.</p>
