@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version = "0.0.1">
+            <file name="aasimar-seeker.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-seeker.xml" />
+        </update>
+    </info>
+    <element name="Seeker Aasimar" type="Sub Race" source="Exploring Eberron" id="ID_SUB_RACE_SEEKER-AASIMAR">
+        <supports>Aasimar</supports>
+        <description>
+            <p>Seeker aasimar draw divine power from their own blood. The aura of a Seeker aasimar can consume the life force of enemies, while sustaining those on the verge of death. They have aasimar traits from <em>Volo's Guide to Monsters</em>, plus the traits below.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
+            <p class="indent"><strong><em> Shroud of Life and Death.</strong></em> Starting at 3rd level, you can use your action to awaken the power in your blood, causing a nimbus of crimson energy to flow out from you.
+            <p class="indent">Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed dim light in a 10-foot radius, and at the end of each of your turns, one creature within 30 feet of you takes necrotic damage equal to half your level (rounded up). In addition, if you or an ally within 30 feet drops to 0 hit points without being killed outright, you can use your reaction to preserve them, causing them to drop to 1 hit point instead. When you use this reaction, it ends your transformation early.</p>
+            <p class="indent">Once you use this trait, you can't use it again until you finish a long rest.</p>
+        </description>
+
+        <sheet alt="Aasimar (Seeker)" display="false" />
+        <rules>
+        <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Seeker Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SEEKER_AASIMAR_SHROUD_OF_LIFE_AND_DEATH" level="3" />
+        </rules>
+    </element>
+    <element name="Shroud of Life and Death" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_SEEKER_AASIMAR_SHROUD_OF_LIFE_AND_DEATH">
+        <description>
+            <p>Starting at 3rd level, you can use your action to awaken the power in your blood, causing a nimbus of crimson energy to flow out from you.</p>
+            <p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed dim light in a 10-foot radius, and at the end of each of your turns, one creature within 30 feet of you takes necrotic damage equal to half your level (rounded up). In addition, if you or an ally within 30 feet drops to 0 hit points without being killed outright, you can use your reaction to preserve them, causing them to drop to 1 hit point instead. When you use this reaction, it ends your transformation early.</p>
+        </description>
+        <sheet usage"1/Long Rest">
+            <description>Your transformation lasts for 1 minute or until you end it as a bonus acrion. During it, you shed dim light in a 10-foot radius, and at the end of each of your turns, one creature within 30 feet of you takes {{level:half:up}} necrituc damage. In addition, if you or an ally within 30 feet drops to 0 hit points without being killed outright, you can use your reaction to preserve them, causing them to drop to 1 hit point instead. When you use this reaction, it ends your transformation early.
+            </description>
+        </sheet>
+    </element>
+</elements>

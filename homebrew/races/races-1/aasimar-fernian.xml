@@ -5,7 +5,7 @@
 			<file name="aasimar-fernian.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-fernian.xml" />
 		</update>
 	</info>	
-	<element name="Fernian Aasimar" type="Sub Race" source="Exploring Eberron" id="ID_AA_EE_SUB_RACE_FERNIAN_AASIMAR">
+	<element name="Fernian Aasimar" type="Sub Race" source="Exploring Eberron" id="ID_SUB_RACE_FERNIAN_AASIMAR">
 		<supports>Aasimar</supports>
 		<description>
 			<p>If your aasimar's powers flow from Fernia, you can use the scourge aasimar subrace from <em>Volo's Guide to Monsters</em>, but forgo the Celestial Resistance and Light Bearer traits, and instead use the following traits.</p>
