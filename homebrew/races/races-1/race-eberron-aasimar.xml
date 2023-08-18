@@ -177,9 +177,9 @@
 
         <sheet alt="Seeker Aasimar" display="false" />
         <rules>
-        <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-        <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Seeker Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SEEKER_AASIMAR_SHROUD_OF_LIFE_AND_DEATH" level="3" />
+        	<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        	<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Seeker Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+        	<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SEEKER_AASIMAR_SHROUD_OF_LIFE_AND_DEATH" level="3" />
         </rules>
     </element>
     <element name="Shroud of Life and Death" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_SEEKER_AASIMAR_SHROUD_OF_LIFE_AND_DEATH">
