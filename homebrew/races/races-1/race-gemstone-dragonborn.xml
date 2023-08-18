@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Gemstone Dragonborn</name>
+        <update version="0.0.1">
+            <file name="race-gemstone-dragonborn.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-gemstone-dragonborn.xml" />
+        </update>
+    </info>
+    <element name="Gemstone Dragonborn" type="Race" id="ID_RACE_GEMSTONE_DRAGONBORN">
+        <description>
+            <p>Much rarer than their metallic or chromatic cousins, the gemstone dragonborn are the result of powerful rituals. They are proud of their heritage. Because the gemstone dragons are rare, so rare as to be considered mythical, it's not unusual for their humanoid descendants to pursue a great quest to find their ultimate progenitor... or just any gemstone dragon, to get a sense of where they came from and prove the jeweled dragons are real.</p>
+            <<h4>GEMSTONE TRAITS</h4>
+            <p>Your gemstone ancestry is obvious to anyone who looks at you. You bear multifaceted crystals embedded in your scales, and your eyes are solid gemstones. In times of extreme emotion - the specific emotion varies from individual to individual - your gemstones flare with light.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Intelligence increases by 2, and your Wisdom by 1.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Gemstone dragonborn mature quickly: their reptilian ancestry produces children who can walk and talk only a few months after birth. They reach adulthood at the age of seven and live to be around 115, longer than their cousins.</p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Gemstone dragonborn trend toward neutral alignments, but are free-thinking creatures able to choose their own path.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Gemstone dragonborn are on average as tall as a normal human, which means other dragonborn tower over them. Your size is Medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
+            <p class="indent"><strong><em>Crystal Armor.</em></strong> Gemstone dragonborn pride themselves on the vibrant, glowing crystals embedded in their skin. The gems fuel their limited psionic abilities and grant them a natural armor bonus. They gain a +1 bonus to AC</p>
+            <p class="indent"><strong><em>Limited Psionics.</em></strong> You have 4 psionic charges, which refresh when you finish a long rest. You know <em>flay</em> and <em>distance</em>. At your GM's discretion, you may learn more through adventuring and research. The DC for your psionic saving throws equals 8 + your Intelligence modifier + your proficiency bonus.</p>
+            <p class="indent"><strong><em>Languages.</em></strong>You can read, speak, and write Common and Draconic. You can hear the murmurs of gemstone dragon mindspeech within 1 mile.</p>
+        </description>
+        <sheet display="false" alt="Gem Dragonborn">
+            <stat name="intelligence" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Gemstone Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Gemstone Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <grant type="Size" id="ID_SIZE_MEDIUM" />
+            <stat name="innate speed" value="30" bonus="base" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_CRYSTAL ARMOR" />
+            <grant
+        </sheet>
+    </element>
+    
+    
+    
+</elements>
