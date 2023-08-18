@@ -187,8 +187,9 @@
             <p>Starting at 3rd level, you can use your action to awaken the power in your blood, causing a nimbus of crimson energy to flow out from you.</p>
             <p>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed dim light in a 10-foot radius, and at the end of each of your turns, one creature within 30 feet of you takes necrotic damage equal to half your level (rounded up). In addition, if you or an ally within 30 feet drops to 0 hit points without being killed outright, you can use your reaction to preserve them, causing them to drop to 1 hit point instead. When you use this reaction, it ends your transformation early.</p>
         </description>
-        <sheet usage"1/Long Rest">
-            <description>Your transformation lasts for 1 minute or until you end it as a bonus acrion. During it, you shed dim light in a 10-foot radius, and at the end of each of your turns, one creature within 30 feet of you takes {{level:half:up}} necrituc damage. In addition, if you or an ally within 30 feet drops to 0 hit points without being killed outright, you can use your reaction to preserve them, causing them to drop to 1 hit point instead. When you use this reaction, it ends your transformation early.
+        <sheet usage="1/Long Rest">
+            <description>
+			Your transformation lasts for 1 minute or until you end it as a bonus acrion. During it, you shed dim light in a 10-foot radius, and at the end of each of your turns, one creature within 30 feet of you takes {{level:half:up}} necrituc damage. In addition, if you or an ally within 30 feet drops to 0 hit points without being killed outright, you can use your reaction to preserve them, causing them to drop to 1 hit point instead. When you use this reaction, it ends your transformation early.
             </description>
         </sheet>
     </element>
