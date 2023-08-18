@@ -63,7 +63,7 @@
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1.</p>
 			<p class="indent"><strong><em>Fernian Resistance.</em></strong> You have resistance to fire and necrotic damage.</p>
 			<p class="indent"><strong><em>Shroud of Flame.</em></strong> Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you. Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take fire damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra fire damage to one target when you deal damage to it with an attack or a spell. The extra fire damage equals your level. Once you use this trait, you can't use it again until you finish a long rest.</p>
-			<p class="indent"><strong><em> Spirit of Fire.</em></strong> You know the <em>produce flames</em> cantrip. Charisma is your spellcasting ability for it.
+			<p class="indent"><strong><em> Spirit of Fire.</em></strong> You know the <em>produce flames</em> cantrip. Charisma is your spellcasting ability for it.</p>
 		</description>
 
 		<sheet alt="Fernian Aasimar" display="false" />
