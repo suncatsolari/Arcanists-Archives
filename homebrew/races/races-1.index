@@ -7,11 +7,6 @@
         </update>
     </info>
     <files>
-    <!-- Aasimar -->
-        <file name="aasimar-court.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-court.xml"   />
-        <file name="aasimar-fernian.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-fernian.xml" />
-        <file name="aasimar-mabaran.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-mabaran.xml" />
-        <file name="aasimar-seeker.xml"  url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/aasimar-seeker.xml"  />
 
     <!-- Dragonborn -->
         <file name="dragonborn-greater.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/dragonborn-greater.xml"   />
@@ -55,6 +50,7 @@
         <file name="race-cutebold.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-cutebold.xml"                      />
         <file name="race-draenei.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-draenei.xml"                       />
         <file name="race-dragon-forged.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-dragon-forged.xml"                 />
+        <file name="race-eberron-aasimar.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-eberron-aasimar.xml"                 />
         <file name="race-fey-corgi.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-fey-corgi.xml"                     />
         <file name="race-fillfeid.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-fillfeid.xml"                      />
         <file name="race-floridian.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-floridian.xml"                     />
