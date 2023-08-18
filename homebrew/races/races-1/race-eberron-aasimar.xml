@@ -153,7 +153,7 @@
 			<description>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take {{level:half:up}} fire damage. In addition, once on each of your turns, you can deal {{level}} extra fire damage to one target when you deal damage to it with an attack or a spell.</description>
 		</sheet>
 	</element>
-	<element name="Spirit of Fire" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_MABARAN_AASIMAR_HERALD_OF_DOOM">
+	<element name="Herald of Doom" type="Racial Trait" source="Exploring Eberron" id="ID_RACIAL_TRAIT_MABARAN_AASIMAR_HERALD_OF_DOOM">
 		<description>
 			<p>You know the toll the dead cantrip. Charisma is your spellcasting ability for it.</p>
 		</description>
