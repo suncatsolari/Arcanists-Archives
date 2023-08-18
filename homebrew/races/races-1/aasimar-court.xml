@@ -18,7 +18,7 @@
             <p class="indent"><strong><em>Guidance From the Past.</em></strong> Starting at 3rd level, you can use an action to draw from your connection to your ancestors. Misty tendrils flow around you, whispering advice that only you can hear. <br/>Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you gain advantage on all Wisdom checks and saving throws. <br/>Once you use this trait, you can't use it again until you finish a long rest.</p>
 		</description>
 
-		<sheet alt="Aasimar (Court)" display="false" />
+		<sheet alt="Court Aasimar" display="false" />
 		<rules>
 			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Court Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />

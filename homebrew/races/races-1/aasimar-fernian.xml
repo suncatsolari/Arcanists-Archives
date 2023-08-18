@@ -15,7 +15,7 @@
 			<p class="indent"><strong><em> Spirit of Fire.</em></strong> You know the <em>produce flames</em> cantrip. Charisma is your spellcasting ability for it.
 		</description>
 
-		<sheet alt="Aasimar (Fernian)" display="false" />
+		<sheet alt="Fernian Aasimar" display="false" />
 		<rules>
 			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Fernian Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />

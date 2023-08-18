@@ -15,7 +15,7 @@
 			<p class="indent"><strong><em>Herald of Doom.</em></strong> You know the <em>toll the dead</em> cantrip. Charisma is your spellcasting ability for it.</p>
 		</description>
 
-		<sheet alt="Aasimar (Mabaran)" display="false" />
+		<sheet alt="Mabaran Aasimar" display="false" />
 		<rules>
 			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Mabaran Aasimar)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
