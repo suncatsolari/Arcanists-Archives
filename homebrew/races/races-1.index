@@ -9,7 +9,6 @@
     <files>
 
     <!-- Dragonborn -->
-        <file name="dragonborn-greater.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/dragonborn-greater.xml"   />
         <file name="dragonborn-prismatic.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/dragonborn-prismatic.xml" />
         <file name="dragonborn-pureblood.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/dragonborn-pureblood.xml" />
 
@@ -59,6 +58,7 @@
         <file name="race-genasi.xml"          url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-genasi.xml"                        />
         <file name="race-giff.xml"            url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-giff.xml"                          />
         <file name="race-gnoll.xml"           url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-gnoll.xml"                         />
+        <file name="race-greater-dragonborn.xml"   url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-greater-dragonborn.xml"   />
         <file name="race-half-ogre.xml"       url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-half-ogre.xml"                     />
         <file name="race-half-oni.xml"        url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-half-oni.xml"                      />
         <file name="race-kitsune.xml"         url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-kitsune.xml"                       />
