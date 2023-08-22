@@ -55,11 +55,10 @@
             <stat name="psionics:dc" value="8" />
             <stat name="psionics:dc" value="intelligence:modifier" />
             <stat name="psionics:dc" value="proficiency" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_DISTANCE" />
-            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_FLAY" />
+            <select type="Racial Trait" name="Psionics Options" supports="Limited Psionics" number="2" />
         </rules>
     </element>
-    <element name="Distance" type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_DISTANCE" supports="Limited Psionics" source="Arcanist's Archives">
+    <element name="Distance" type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_DISTANCE" source="Arcanist's Archives">
     <supports>Limited Psionics</supports>
         <description>
             <p>As an action space contorts and twists. Choose any number of targets you can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet. For each target you must spend one charge.</p>
@@ -68,7 +67,7 @@
             <description>As an action space contorts and twists. Choose any number of targets you can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet. For each target you must spend one charge.</description>
         </sheet>
     </element>    
-    <element name="Flay" type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_FLAY" supports="Limited Psionics" source="Arcanist's Archives">
+    <element name="Flay" type="Racial Trait" id="ID_RACIAL_TRAIT_GEMSTONE_DRAGONBORN_FLAY" source="Arcanist's Archives">
     <supports>Limited Psionics</supports>
         <description>
             <p>As an action space contorts and twists. Choose any number of targets you can see within 30 feet. Each target must succeed on an Intelligence saving throw or be pushed back 30 feet. For each target you must spend one charge.</p>
