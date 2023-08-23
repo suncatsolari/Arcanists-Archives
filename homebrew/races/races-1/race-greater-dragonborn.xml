@@ -11,7 +11,7 @@
 			<p class="flavor">HER FATHER STOOD ON THE FIRST OF THE THREE stairs that led down from the portal, unmoving. The scales of his face had grown paler around the edges, but Clanless Mehen still looked as if he could wrestle down a dire bear himself. His familiar well-worn armor was gone, replaced by violet-tinted scale armor with bright silvery tracings. There was a blazon on his arm as well, the mark of some foreign house. The sword at his back was the same, though, the one he had carried since even before he had found the twins left in swaddling at the gates of Arush Vayem.</p>
             <p class="flavor">For all her life, Farideh had known that reading her father's face was a skill she'd been fortunate to learn. A human who couldn't spot the shift of her eyes or Havilar's would certainly see only the indifference of a dragon in Clanless Mehen's face. But the shift of scales, the arch of a ridge, the set of his eyes, the gape of his teeth—her father's face spoke volumes.</p>
             <p class="flavor">But every scale of it, this time, seemed completely still—the indifference of a dragon, even to Farideh.</p>
-            <p>—Erin M. Evans,</br>The Adversary</p>
+            <p>—Erin M. Evans, The Adversary</p>
             <p class="indent">Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by the Dracontine as disciples or descended from dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life. The blood of a particular type of dragon runs strong through all dragonborn. A dragonborn’s color imparts many traits upon them, including varying types of breath weapon, as well as scales that closely match those of their dragon ancestor — bright prismatic dragons, glistening chromatic dragons, brilliant gem dragons, gleaming metallic dragons, and lustrous ferrous dragons.</p>
             <h4>DEVOUT AND DEVOTED</h4>
             <p>Shaped in the image of the Dracontine, few races hew to their teachings as closely as the dragonborn. While certain tribes will pledge themselves to a single god, most follow the pantheon as a whole. A father might seek a blessing from Priya for his children's health, while a warrior would entreat Astur for success in battle. Many dragonborn find themselves drawn to the clergy, and dragonborn priestesses are found throughout the world.</p>
@@ -113,20 +113,67 @@
                 <stat name="ac:calculation" value="greater dragonborn:natural armor" bonus="calculation" />
             </rules>
     </element>
-    <element name="" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_">
+
+	<!-- Greater Dragonborn Colors-->
+    <element name="Adamantine" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_ADAMANTINE">
 		<supports>Color</supports>
 		<description>
-			<p class="indent"><strong><em>Ability Score Increase.</em></strong></p>
-            <p class="indent"><strong><em>Draconic Ancestry</em></strong></p>
-            <p class="indent"><strong><em>Wyrmblooded</em></strong></p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a blast of magical flame. It deals fire damage in a 15-foot cone, and imposes a Dexterity saving throw.</p>
+            <p class="indent"><strong><em>Wyrmblooded.</em></strong> You are descended from one of the largest breeds of dragons. Your size is Large.</p>
 		</description>
-		<sheet alt="">
-			<description>Your draconic ancestry is {{draconic-ancestry}}. Your damage type is {{draconic-ancestry:damage type}}. Your breath weapon is {{draconic-ancestry:breath}}.</description>
+		<sheet alt="Adamantine">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}.</description>
 		</sheet>
 		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Adamantine Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<grant type="Size" id="ID_SIZE_LARGE" />
+			<stat inline="true" name="color" value="Adamantine"/>
+			<stat inline="true" name="color:damage type" value="Fire" />
+			<stat inline="true" name="color:breath" value="15-foot cone (Dex. Save)" />
+		</rules>
+	</element>
+	<element name="Amethyst" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_AMETHYST">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Charisma score increases by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a beam of glimmering energy. It deals force damage in a line 30 feet long and 5 feet wide, and imposes a Constitution saving throw. You have resistance to poison damage.</p>
+            <p class="indent"><strong><em>Greater Breath Weapon</em></strong> Creatures that fail their saving throw on your breath weapon are pushed 30 feet away from you.</p>
+		</description>
+		<sheet alt="Amethyst">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and creatures that fail the saving throw are pushed 30 feet away from you. You are resistant to {{color:damage type}} damage.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Amethyst Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Amethyst Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Amethyst"/>
+			<stat inline="true" name="color:damage type" value="Poison" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Con. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
+		</rules>
+	</element>
+	<element name="Black" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_BLACK">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a stream of caustic acid. It deals acid damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to acid damage.</p>
+            <p class="indent"><strong><em>Greater Breath Weapon.</em></strong> You add your Constitution modifier to the damage of your breath weapon.</p>
+		</description>
+		<sheet alt="Black">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and you add your constitution modifier to the damage dealt. You are resistant to {{color:damage type}} damage</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Black Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Black Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat inline="true" name="color" value="Black"/>
-			<stat inline="true" name="draconic-ancestry:damage type" value="Acid" />
-			<stat inline="true" name="draconic-ancestry:breath" value="5 by 30 ft. line (Dex. save)" />
+			<stat inline="true" name="color:damage type" value="Acid" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Con. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
 		</rules>
 	</element>
 </elements>
