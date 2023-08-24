@@ -77,6 +77,9 @@
                    <li>Prismatic — blue, green, indigo, orange, purple, rainbow, red, and yellow</li> 
                 </ul>
 		</description>
+		<sheet>
+			<description>In the same manner as true dragons, dragonborn are divided into a number of different colors.</description>
+		</sheet>
 		<rules>
 			<select type="Racial Trait" name="Color" supports="Color" />
 		</rules>
@@ -123,7 +126,7 @@
             <p class="indent"><strong><em>Wyrmblooded.</em></strong> You are descended from one of the largest breeds of dragons. Your size is Large.</p>
 		</description>
 		<sheet alt="Adamantine">
-			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}.</description>
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. Your size is Large.</description>
 		</sheet>
 		<rules>
 			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -184,7 +187,7 @@
             <p class="indent"><strong><em>Dragon of the Sand.</em></strong> You have a burrow speed of 30 feet.</p>
 		</description>
 		<sheet alt="Blue">
-			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage.</description>
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage  damage and have a burrow speed of 30 feet.</description>
 		</sheet>
 		<rules>
 			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -254,7 +257,7 @@
             <p class="indent"><strong><em>Dragon of the Sand.</em></strong> You have a burrow speed of 30 feet.</p>
 		</description>
 		<sheet alt="Brown">
-			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage.</description>
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage  damage and have a burrow speed of 30 feet.</description>
 		</sheet>
 		<rules>
 			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -276,7 +279,7 @@
             <p class="indent"><strong><em>Greater Breath Weapon.</em></strong> You add your Constitution modifier to the damage of your breath weapon.</p>
 		</description>
 		<sheet alt="Chromium">
-			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and you add your constitution modifier to the damage dealt. You are resistant to {{color:damage type}} damage.</description>
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and you add your constitution modifier to the damage dealt. You are resistant to {{color:damage type}}.</description>
 		</sheet>
 		<rules>
 			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -311,6 +314,29 @@
 			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Dex. save)" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
 			<stat name="innate speed:swim" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Copper" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_COPPER">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 2, and your Strength score increases by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a corrosive fog. It deals acid damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to acid damage.</p>
+            <p class="indent"><strong><em>Good Host.</em></strong> You have proficiency in Performance, and can speak, read, and write one extra language of your choice.</p>
+		</description>
+		<sheet alt="Copper">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat name="charisma" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Copper Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Copper Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Copper"/>
+			<stat inline="true" name="color:damage type" value="Acid" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Con. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+			<select type="Language" name="Language, Good Host" supports="Standard||Exotic" />
 		</rules>
 	</element>
 </elements>
