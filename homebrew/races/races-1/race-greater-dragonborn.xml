@@ -163,7 +163,7 @@
             <p class="indent"><strong><em>Greater Breath Weapon.</em></strong> You add your Constitution modifier to the damage of your breath weapon.</p>
 		</description>
 		<sheet alt="Black">
-			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and you add your constitution modifier to the damage dealt. You are resistant to {{color:damage type}} damage</description>
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and you add your constitution modifier to the damage dealt. You are resistant to {{color:damage type}} damage.</description>
 		</sheet>
 		<rules>
 			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
@@ -174,6 +174,143 @@
 			<stat inline="true" name="color:damage type" value="Acid" />
 			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Con. save)" />
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+		</rules>
+	</element>
+	<element name="Blue" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_BLUE">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength, Dexterity, and Constitution scores each increase by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a bolt of lightning. It deals lightning damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to lightning damage.</p>
+            <p class="indent"><strong><em>Dragon of the Sand.</em></strong> You have a burrow speed of 30 feet.</p>
+		</description>
+		<sheet alt="Blue">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Blue Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Blue Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Blue Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Blue"/>
+			<stat inline="true" name="color:damage type" value="Lightning" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Dex. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			<stat name="innate speed:burrow" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Brass" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_BRASS">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Charisma score increases by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a gust of superheated air. It deals fire damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to fire damage.</p>
+            <p class="indent"><strong><em>Boldly Talkative.</em></strong> You have proficiency in Persuasion.</p>
+		</description>
+		<sheet alt="Brass">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Brass Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Brass Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Brass"/>
+			<stat inline="true" name="color:damage type" value="Fire" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Dex. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FIRE" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+		</rules>
+	</element>
+	<element name="Bronze" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_BRONZE">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength, Constitution, and Charisma scores each increase by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a pulse of electricity. It deals lightning damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to lightning damage.</p>
+            <p class="indent"><strong><em>Dragon of the Coast.</em></strong> You have a swimming speed of 30 feet, and you can breathe air and water.</p>
+		</description>
+		<sheet alt="Bronze">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage and you can breathe both air and water.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="charisma" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Bronze Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Bronze Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Bronze Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Bronze"/>
+			<stat inline="true" name="color:damage type" value="Lightning" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Dex. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_LIGHTNING" />
+			<stat name="innate speed:swim" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Brown" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_BROWN">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Constitution score increases by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a cloud of corrosive sand. It deals bludgeoning damage in a 15-foot cone, and imposes a Dexterity saving throw. You have resistance to acid damage.</p>
+            <p class="indent"><strong><em>Dragon of the Sand.</em></strong> You have a burrow speed of 30 feet.</p>
+		</description>
+		<sheet alt="Brown">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}}. You are resistant to {{color:damage type}} damage.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Brown Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Brown Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Brown"/>
+			<stat inline="true" name="color:damage type" value="Acid" />
+			<stat inline="true" name="color:breath" value="15-foot cone (Dex. Save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			<stat name="innate speed:burrow" value="30" bonus="base" />
+		</rules>
+	</element>
+	<element name="Chromium" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_CHROMIUM">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and your Dexterity score increases by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a bolt of solid ice. It deals cold damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to cold damage.</p>
+            <p class="indent"><strong><em>Greater Breath Weapon.</em></strong> You add your Constitution modifier to the damage of your breath weapon.</p>
+		</description>
+		<sheet alt="Chromium">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and you add your constitution modifier to the damage dealt. You are resistant to {{color:damage type}} damage.</description>
+		</sheet>
+		<rules>
+			<stat name="constitution" value="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Chromium Greater Dragonborn)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Chromium Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Chromium"/>
+			<stat inline="true" name="color:damage type" value="Cold" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Con. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
+		</rules>
+	</element>
+	<element name="Cobalt" type="Racial Trait" source="Arcanist's Archives" id="ID_RACIAL_TRAIT_GREATER_DRAGONBORN_COLOR_COBALT">
+		<supports>Color</supports>
+		<description>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity, Intelligence, and Wisdom scores increase by 1.</p>
+            <p class="indent"><strong><em>Draconic Ancestry.</em></strong> Your breath weapon is a pulse of magnetic energy. It deals force damage in a line 30 feet long and 5 feet wide, and imposes a Dexterity saving throw. You have resistance to force damage.</p>
+            <p class="indent"><strong><em>Greater Breath Weapon.</em></strong> Creatures wearing metal armor that fail their saving throw on your breath weapon are pushed 30 feet away from you, and targets holding metal weapons are disarmed.</p>
+		</description>
+		<sheet alt="Cobalt">
+			<description>Your color is {{color}}. Your damage type is {{color:damage type}}. Your breath weapon is {{color:breath}} and creatures wearing metal armor that fail the saving throw are pushed 30 feet away from you, while targets holding metal weapons are disarmed. You are resistant to {{color:damage type}}.</description>
+		</sheet>
+		<rules>
+			<stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="intelligence" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat name="wisdom" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Cobalt Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Cobalt Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Cobalt Greater Dragonborn)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<stat inline="true" name="color" value="Cobalt"/>
+			<stat inline="true" name="color:damage type" value="Force" />
+			<stat inline="true" name="color:breath" value="5 by 30 ft. line (Dex. save)" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_FORCE" />
+			<stat name="innate speed:swim" value="30" bonus="base" />
 		</rules>
 	</element>
 </elements>
