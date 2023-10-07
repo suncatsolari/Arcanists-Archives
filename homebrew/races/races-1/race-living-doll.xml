@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="race-living-doll.xml" url="https://raw.githubusercontent.com/suncatsolari/Arcanists-Archive/master/homebrew/races/races-1/race-living-doll.xml" />
+		</update>
+	</info>
+
+	<element name="Living Doll" type="Race" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACE_LIVING_DOLL">
+		<description>
+			<p>The doll stares at you for a moment, her glassy eyes remaining unblinking as she considers your question. <em>“Well, not all of us are made the same way. Some of us are simply experiments from bored mages. Some of us come to life from the pure love of the child that we belonged to. Others just wake up one day, unsure of how we exist, or even why. I've even met one that claims to be a ghost possessing a doll.”</em> Her voice is quiet, but heard nonetheless despite the fact that her lips are unmoving. </p>
+            <h4>Delicate and Cool</h4>
+			<p class="indent">A mysterious and strange race (if one can call a group of sentient objects a race), Living Dolls exist due to a psychic force animating the otherwise lifeless shell. No two personalities are alike, each are as individual as any other race. Their bodies, likewise, come in many different shapes, sizes, and forms. There are ones that resemble humanoids, ones that resemble animals, and even ones whose appearance’s origins are questionable. Some are child sized, and others are larger than most adults. The materials that make them up vary as well. They could be made of porcelain, cloth, plastic, or even straw or corn husks.</p>
+			<h4>Living Doll Traits</h4>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 1, and your Dexterity score increases by 1.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Living Dolls don’t age, and their lifespan is indeterminate. Sometimes the force that animates them simply disappears. Though usually their “old age” involves their physical shells deteriorating. Most living dolls last anywhere from 60-90 years, though a few have made it well past 300 years. </p>
+            <p class="indent"><strong><em>Alignment.</em></strong> Some Living Dolls tend towards neutrality, as their existence is somewhat mysterious, even to themselves. They don’t always have an easy time connecting to the world around them. However, their alignments can be just as varied as the Dolls themselves. </p>
+			<p class="indent"><strong><em>Size.</em></strong> The smallest Living Dolls are around 3 feet tall. Anything smaller than that and their bodies tend to die out sooner than they are supposed to due to the strain on them from the psychic force. The largest of them tend to be about 9 feet tall. Any more than that and the psychic force has trouble keeping them animated. Your size can range from small to large.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your walking speed is 30 feet.</p>
+			<p class="indent"><strong><em>Psychic Shielding.</em></strong> Living Dolls have an aura around them of psychic energy. This energy exists to keep them alive and, as such, it is much harder to damage than you would expect. For this reason, they are always considered to have half cover.</p>
+			<p class="indent"><strong><em>Psychic Grasp.</em></strong> Living Dolls can channel a part of their psychic energy to move objects around them. They innately know the Mage Hand cantrip, and can cast it without components. The hand is also invisible. However, the floating hand can only lift up to 5 pounds and move up to 5 feet per character level.</p>
+            <p class="indent"><strong><em>Animated Shell.</em></strong> Living dolls do not require food or drink to survive.</p>
+            <p class="indent"><strong><em>Self Repair.</em></strong> All Living Dolls know the Mending cantrip. Once per long rest they may cast it on themselves as an action to heal 1d8 hitpoints. This increases to twice per long rest at 5th level, 3 times at 10th level, 4 times at 14th level, and 5 times at 18th level.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> You can speak Common and Dollspeech. (Note: Even if your Doll has lips that don’t move, it is still verbal communication, not mental.)</p>
+            <p class="indent"><strong><em>Subrace.</em></strong> Three main subraces of Living Dolls exist: Those made from the Force of Inspiration, those made from the Force of Resilience, and those made from the Force of Nature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+            <stat name="constitution" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <stat name="dexterity" value="1" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Living Doll)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+            <select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Living Doll)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Racial Trait" name="Size (Living Doll)" supports="ID_INTERNAL_RACIAL_TRAIT_SMALL|ID_INTERNAL_RACIAL_TRAIT_MEDIUM|ID_INTERNAL_RACIAL_TRAIT_LARGE" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_INTERNAL_RACIAL_TRAIT_TYPE_HUMANOID" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+            <grant type="Language" id="ID_LANGUAGE_DOLLSPEAK" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
+			<select type="Language" name="Language (Living Doll)" supports="Standard||Exotic" />
+            <select type="Language" name="Language (Living Doll)" supports="Standard||Exotic" />
+			
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIVING_DOLL_PSYCHIC_SHIELDING" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIVING_DOLL_PSYCHIC_GRASP" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIVING_DOLL_ANIMATED_SHELL" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LIVING_DOLL_SELF_REPAIR" />
+		</rules>
+	</element>
+
+	<element name="Changeling Instincts" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_CHANGELING_CHANGELING_INSTINCTS">
+		<description>
+			<p>Thanks to your connection to the fey realm, you gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Changeling Instincts" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION" number="2" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+			<select type="Proficiency" name="Customized Skill Proficiency (Changeling Instincts)" supports="Skill" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_PROFICIENCY" />
+		</rules>
+	</element>
+
+	<element name="Shapechanger" type="Racial Trait" source="Monsters of the Multiverse" id="ID_WOTC_MOTM_RACIAL_TRAIT_CHANGELING_SHAPECHANGER">
+		<description>
+			<p>As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.</p>
+			<p class="indent">You stay in the new form until you use an action to revert to your true form or until you die.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.&#13;
+			You stay in the new form until you use an action to revert to your true form or until you die.</description>
+		</sheet>
+	</element>
+</elements>
